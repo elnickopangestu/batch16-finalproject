@@ -1,57 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Fecebook  
-        </title>
-        
-    </head>
-    <body>
-       <h1>Hello World</h1> 
-       <header>
-       <p1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p1>
-     <a href="https://github.com/elnickopangestu">my git hub!</a>
-     </header>
-     <link rel="stylesheet" href="style.css">
-    </body>
-    <h3>
-    <img src="file:///C:/Users/asus/Documents/hacktiv8/photo_2019-01-19_04-40-32.jpg" width="500">
-</h3>
-<body>
-<h5 style="text-align:center;">music on</h5>
-<h4 style="text-align:center;">
-  <iframe src="https://www.youtube.com/watch?v=60ItHLz5WEA" widht="600" height="150"></iframe>
-</h4>
-    
-<ul>
-  <li> <a href="https://github.com/elnickopangestu">My github</a></li>
-<li> <a href="https://goo.gl/maps/KxdPtHt8HW1G8ak28">My Address</a></li>
-</ul>
-<p6>
-<form>
-    <div class="form-group">
-      <label for="exampleInputEmail1">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+ <head>
+  <title>my profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+ </head>
+ <body>
+
+  <div class="profile-card">
+    <div class="image">
+      <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png" alt="profile-picture" />
     </div>
-    <div class="form-group">
-      <label for="exampleInputPassword1">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <div class="image-shadow"></div>
+    <div class="header">
+      <div class="title">
+        <span>Elnicko Pangestu</span>
+        <span>Freelancer</span>
+      </div>
+      <div class="social-buttons">
+        <div class="social-button">
+          <i class="fa fa-facebook"></i>
+        </div>
+        <div class="social-button">
+          <i class="fa fa-twitter"></i>
+        </div>
+        <div class="social-button">
+          <i class="fa fa-linkedin"></i>
+        </div>
+        <div class="social-button">
+          <i class="fa fa-google-plus"></i>
+        </div>
+      </div>
     </div>
-    <div class="form-group form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    <div class="content">
+      <div class="tabs">
+        <div class="tab" data-tab="about">
+          <i class="fa fa-user"></i>
+        </div>
+        <div class="tab" data-tab="skills">
+          <i class="fa fa-trophy"></i>
+        </div>
+        <div class="tab" data-tab="contact" status="active">
+          <i class="fa fa-envelope"></i>
+        </div>
+      </div>
+      <div class="body">
+        <div tab="about">
+          <h2>About</h2>
+          <p>My name is Elnicko Pangestu I Am 25 years old, male, single, energetic and healthy. I was graduated from Trisakti university D1 majoring hospitality management. I am Pre Opening Team Of Grand Mercure Jakarta kemayoran. I would like to switch my career to digital tchnology for expand my experience. My personality as a hard worker  and fast learner type of person.</p>
+          
+        </div>
+        <div tab="skills">
+          <h2>Skills</h2>
+          <div id="html" class="progress-bar">
+            <div></div>
+            <span>HTML</span>
+          </div>
+          <div id="css" class="progress-bar">
+            <div></div>
+            <span>CSS</span>
+          </div>
+          <div id="js" class="progress-bar">
+            <div></div>
+            <span>JavaScript</span>
+          </div>
+          <div id="jq" class="progress-bar">
+            <div></div>
+            <span>jQuery</span>
+          </div>
+          <div id="bs" class="progress-bar">
+            <div></div>
+            <span>Bootstrap</span>
+          </div>
+        </div>
+        <div tab="contact" status="active">
+          <h2>Contact Me</h2>
+          <form>
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+            <textarea placeholder="Message"></textarea>
+            <input type="submit" value="Send Message" />
+          </form>
+        </div>
+      </div>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-  </p6>
-
-
-
-
-
-
-
-
-</body>
+  </div>
+ </body>
 </html>
