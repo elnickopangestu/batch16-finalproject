@@ -13,5 +13,3 @@ $(document).ready(function(){
    $("form").submit(function(e){
      e.preventDefault();
    });
-   alert("this is my profile");
-  });
